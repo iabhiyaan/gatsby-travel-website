@@ -2,16 +2,14 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import HeroSection from "../components/HeroSection"
 import Image from "../components/image"
-function IndexPage() {
+
+function Images() {
   return (
     <Layout>
-      <Seo title="Home" />
-      <HeroSection />
+      <Seo title="Images" />
       <Image />
     </Layout>
   )
 }
-
-export default IndexPage
+export default Images
